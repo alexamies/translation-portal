@@ -1,0 +1,21 @@
+{
+  "name": "translation-portal",
+  "description": "Translation Portal",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": "alexamies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexamies/translation-portal"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

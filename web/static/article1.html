@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="about:blank">
+    <meta name="description" 
+          content="Chinese-English Dictionary JavaScript Demo">
+    <title>Translation Portal</title>
+    <link rel="stylesheet" type="text/css" href="/translation_portal.css"/>
+  </head>
+  <body>
+    <h1>Translation Portal</h1>
+    <div><a href="/">Home</a></div>
+    <h2>人間佛教之「人間化、現代化 、生活化」</h2>
+    <main>
+      <p>李廣良</p>
+      <p>雲南師範大學教授</p>
+      <p>哲學博士現任雲南師範大學經,濟政法學院教授主要研究方。向可分為一佛法與革命、太虛大師:的革命思想;二馬克思主義的佛教、觀和佛教的馬克思主義觀;三近代、儒佛關係史述略;四佛法與自由、:太虛大師佛學思想中的自由觀念;五、心識的力量太虛唯識學思想研究:。</p>
+      <div id='dict-status'>Status</div>
+    </main>
+    <dialog id='dict-dialog'>
+      <!--
+        The dialog field ids follow the pattern dict-dialog + _headword, etc
+      -->
+      <p id='dict-dialog_headword'></p>
+      <p id='dict-dialog_pinyin'></p>
+      <p id='dict-dialog_english'></p>
+      <p id='dict-dialog_headword_id'></p>
+      <button id='dict-dialog_ok'>OK</button>
+    </dialog>
+    <script defer src="/dist/dialog-polyfill.js"></script>
+    <script defer src="/translation_portal.js" type="module" crossorigin></script>
+  </body>
+</html>
